@@ -1,0 +1,308 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    background-color: rgb(219, 213, 244);
+    overflow-x: hidden;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.top {
+    padding: 30px 30px 20px;
+    background-color: white;
+}
+
+.top i {
+    margin-right: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    position: relative;
+    left: 200px;
+    vertical-align: center;
+}
+
+.search-input {
+    position: relative;
+    left: 40%;
+    top: 0px;
+}
+
+input {
+    padding: 15px 10px;
+    border-radius: 30px;
+    color: rgb(8, 8, 8);
+    font-size: 19px;
+    background-color: rgb(217, 244, 244);
+}
+
+input:hover {
+    border: 2px solid rgb(51, 48, 48);
+}
+
+.but {
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    /* border: none; */
+    font-weight: bold;
+    height: 100%;
+    background-color: #efefef;
+    color: rgb(1, 1, 1);
+    font-size: 15px;
+}
+
+.but:hover {
+    background-color: rgb(175, 170, 170);
+    cursor: pointer;
+}
+
+.search-input input:focus {
+    outline: 0;
+
+}
+
+.nav-item,
+.logo,
+.search-input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-item a {
+    color: #1a1a1a;
+}
+
+.logo {
+    opacity: 85%;
+}
+
+.nav-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-sticky a {
+    text-transform: uppercase;
+    margin-right: 40px;
+    font-weight: bold;
+    color: rgb(33, 32, 32);
+    text-decoration: none;
+    color: rgb(119, 117, 114);
+}
+
+.section1 {
+    /* text-align: center; */
+    padding: 60px 50px;
+    position: relative;
+    /* left:30px; */
+    background-image: url(img/young-man-reading-a-book-with-alphabet-letters-EP7XHB12345.jpg);
+    height: 100vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section1 .section1-contents {
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+}
+
+.btn1 {
+    padding: 12px;
+    border-radius: 5px;
+    color: rgb(53, 93, 144);
+    border-color: rgb(53, 93, 144);
+    font-weight: bold;
+    font-family: inherit;
+    border-width: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+.btn2 {
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: inherit;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(53, 93, 144);
+    margin-right: 10px;
+}
+
+.btn1,
+.btn2 {
+    cursor: pointer;
+}
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0px;
+    text-align: center;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.section2 .section2content {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.section3 {
+    padding: 50px 100px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.section3 img {
+    width: 400px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.section3 .section3-content {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.section3 .section3-content span {
+    font-size: 20px;
+    font-weight: bold;
+    color: coral;
+    /* white-space: inherit; */
+}
+
+.section3 .section3-content {
+    word-spacing: 5px;
+}
+
+.section3 .section3-content button {
+    padding: 15px;
+    margin: 20px;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-width: 0px;
+    background-color: rgb(53, 93, 144);
+}
+
+.section4 {
+    clear: both;
+    text-align: center;
+    background-color: rgb(234, 233, 233);
+    padding-top: 50px;
+    /* display: inline; */
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.section4 span {
+    font-size: 20px;
+    color: coral;
+    text-shadow: 10px 2px 5px grey;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section4 h2 {
+    /* padding: 30px; */
+    font-size: 35px;
+    text-shadow: 10px 2px 5px rgb(47, 45, 45);
+}
+
+.section4 .books-main-div {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.section4 .book-div {
+    width: 400px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.section4 .book-div img {
+    width: 240px;
+    height: 300px;
+    float: left;
+}
+
+.section4 .book-div .book-content1 {
+    float: right;
+    width: 150px;
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.section4 .book-div .book-content1 h3 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #efefef;
+    padding: 100px 100px 70px;
+    margin-top: 50px;
+}
+
+.conclusion {
+    width: 400px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#con2 {
+    position: relative;
+    top: 15px;
+}
+
+#con3 {
+    position: relative;
+    top: 15px;
+}
+
+footer .conclusion h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+footer .conclusion a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
